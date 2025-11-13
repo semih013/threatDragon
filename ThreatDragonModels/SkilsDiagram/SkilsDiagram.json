@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "b9a93ba7-9001-4d10-b0f4-f515a853433e",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "WebApplication",
@@ -275,6 +275,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -358,7 +359,6 @@
               ]
             },
             "id": "777ec2f9-4139-4968-8e87-9a0aca22a033",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "webserver",
@@ -376,8 +376,8 @@
           },
           {
             "position": {
-              "x": 590,
-              "y": -60
+              "x": 700,
+              "y": -75
             },
             "size": {
               "width": 130,
@@ -395,6 +395,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -478,7 +479,6 @@
               ]
             },
             "id": "586d656a-9173-4b87-931c-5c4a6f638f6c",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Detetector Ai",
@@ -496,8 +496,8 @@
           },
           {
             "position": {
-              "x": 850,
-              "y": 80
+              "x": 940,
+              "y": 110
             },
             "size": {
               "width": 120,
@@ -518,6 +518,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -601,7 +602,6 @@
               ]
             },
             "id": "cd2211a7-c4b1-474a-84e7-e69fabce8132",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Database",
@@ -616,7 +616,8 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            }
+            },
+            "children": []
           },
           {
             "shape": "flow",
@@ -665,42 +666,6 @@
             "vertices": []
           },
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              ""
-            ],
-            "id": "df31116e-b64c-448c-8955-f3a74688535b",
-            "source": {
-              "x": 940,
-              "y": 330
-            },
-            "target": {
-              "x": 260,
-              "y": 400
-            },
-            "vertices": [
-              {
-                "x": 690,
-                "y": 260
-              },
-              {
-                "x": 500,
-                "y": 280
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -746,8 +711,8 @@
             },
             "vertices": [
               {
-                "x": 190,
-                "y": -130
+                "x": 160,
+                "y": -140
               }
             ]
           },
@@ -797,8 +762,8 @@
             },
             "vertices": [
               {
-                "x": 360,
-                "y": -130
+                "x": 330,
+                "y": -140
               }
             ]
           },
@@ -1188,27 +1153,59 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "\n",
+              "name": "",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
             "labels": [
-              "\n"
+              ""
             ],
-            "id": "f6353b04-5185-49f3-a52a-ab5568c64b1e",
+            "id": "4b31a19b-f66f-48a3-83e5-f507fb494a73",
             "source": {
-              "x": 130,
-              "y": -190
+              "x": 1090,
+              "y": -160
             },
             "target": {
-              "x": 60,
-              "y": 290
+              "x": 1210,
+              "y": 320
             },
             "vertices": [
               {
-                "x": 200,
-                "y": 130
+                "x": 890,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              ""
+            ],
+            "id": "df31116e-b64c-448c-8955-f3a74688535b",
+            "source": {
+              "x": 730,
+              "y": 390
+            },
+            "target": {
+              "x": 440,
+              "y": 540
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 230
               }
             ]
           },
@@ -1230,28 +1227,60 @@
             ],
             "id": "79b6a26c-5016-4855-9674-cad5c746cf51",
             "source": {
-              "x": 770,
-              "y": -200
+              "x": 810,
+              "y": -250
             },
             "target": {
-              "x": 940,
-              "y": 290
+              "x": 920,
+              "y": 430
             },
             "vertices": [
               {
-                "x": 520,
+                "x": 590,
                 "y": 70
               }
             ]
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "\n"
+            ],
+            "id": "f6353b04-5185-49f3-a52a-ab5568c64b1e",
+            "source": {
+              "x": 110,
+              "y": -220
+            },
+            "target": {
+              "x": 60,
+              "y": 290
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 130
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 680,
-              "y": 80
+              "x": 670,
+              "y": 90.00000000000028
             },
             "size": {
-              "width": 110,
-              "height": 100
+              "width": 140,
+              "height": 120
             },
             "attrs": {
               "text": {
@@ -1265,6 +1294,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1348,7 +1378,6 @@
               ]
             },
             "id": "b1eda0e7-a73a-4df7-9335-8d211aadfb8a",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Image Processing \nmodule",
@@ -1367,11 +1396,11 @@
           {
             "position": {
               "x": 530,
-              "y": 270
+              "y": 270.0000000000001
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 100,
+              "height": 150
             },
             "attrs": {
               "text": {
@@ -1385,6 +1414,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1468,7 +1498,6 @@
               ]
             },
             "id": "60c48d5f-9313-4966-95aa-208f5e7c58d6",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "External ai API",
@@ -1486,16 +1515,16 @@
           },
           {
             "position": {
-              "x": 250,
-              "y": -220
+              "x": 220,
+              "y": -229.99999999999983
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 100,
+              "height": 90
             },
             "attrs": {
               "text": {
-                "text": "Authentication Service"
+                "text": "Authentication\n Service"
               },
               "body": {
                 "stroke": "#333333",
@@ -1505,6 +1534,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1588,10 +1618,9 @@
               ]
             },
             "id": "27a1ca7f-b2b7-4b04-9b8b-ae9c7e580bf9",
-            "zIndex": 14,
             "data": {
               "type": "tm.Process",
-              "name": "Authentication Service",
+              "name": "Authentication\n Service",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
