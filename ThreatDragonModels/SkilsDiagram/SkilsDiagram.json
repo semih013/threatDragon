@@ -256,8 +256,8 @@
           },
           {
             "position": {
-              "x": 460,
-              "y": -180
+              "x": 515,
+              "y": -210
             },
             "size": {
               "width": 90,
@@ -496,8 +496,8 @@
           },
           {
             "position": {
-              "x": 880,
-              "y": 100
+              "x": 850,
+              "y": 80
             },
             "size": {
               "width": 120,
@@ -1181,9 +1181,73 @@
             "vertices": []
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "\n"
+            ],
+            "id": "f6353b04-5185-49f3-a52a-ab5568c64b1e",
+            "source": {
+              "x": 130,
+              "y": -190
+            },
+            "target": {
+              "x": 60,
+              "y": 290
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "\n"
+            ],
+            "id": "79b6a26c-5016-4855-9674-cad5c746cf51",
+            "source": {
+              "x": 770,
+              "y": -200
+            },
+            "target": {
+              "x": 940,
+              "y": 290
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 70
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 530,
-              "y": 90
+              "x": 680,
+              "y": 80
             },
             "size": {
               "width": 110,
