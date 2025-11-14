@@ -418,7 +418,7 @@
           {
             "position": {
               "x": 700,
-              "y": -75
+              "y": -70
             },
             "size": {
               "width": 130,
@@ -558,6 +558,19 @@
                   "new": false,
                   "number": 8,
                   "score": "38"
+                },
+                {
+                  "id": "5eaaea95-cc5a-4700-b035-43ffe069a636",
+                  "title": "AI Output Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "output tampering",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 10,
+                  "score": "68"
                 }
               ]
             }
@@ -1769,6 +1782,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 9
+    "threatTop": 10
   }
 }
